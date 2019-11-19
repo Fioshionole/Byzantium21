@@ -1,0 +1,1 @@
+document.querySelector("#search").oninput=function(){let e=this.value.toLowerCase(this.value.trim()),t=document.querySelectorAll(".container a");""!=e?t.forEach(function(t){-1==t.innerText.search(e)?t.classList.add("hide"):t.classList.remove("hide")}):t.forEach(function(e){e.classList.remove("hide")})};
